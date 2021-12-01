@@ -60,7 +60,7 @@ public class EncomendasDB {
             System.out.println("Opened database successfully");
 
             stmt = c.createStatement();
-            String sql = "INSERT INTO tb_Mercadorias  (NAME,message,date_added) " +
+            String sql = "INSERT INTO tb_Produtos  (NAME,message,date_added) " +
                     "VALUES ('Zulma', 'Hello every one!!!', datetime())," +
                     " ('Nina', 'whats up!!!',datetime());";
             stmt.executeUpdate(sql);
